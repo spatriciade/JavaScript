@@ -234,6 +234,17 @@
 // } else {
 //   alert("Wrong password or email");
 // }
+
+//Sol 3
+
+//let email = prompt("Email");
+//let password = prompt("password");
+//if (email != "tolkien@lordofrings.com" || password != "aNBR6ZeWPY") {
+//  console.log("wrong email or password");
+//} else {
+//  console.log("Welcome Mr. Tolkien");
+//}
+
 //
 //7  Ejercicio
 // Estuctura switch:
@@ -247,7 +258,7 @@
 //Usar template literal para mostrar el resultado.
 //** Buscar el valor al cambio en Google**
 
-// Sol
+// Sol 1
 
 // let money = 500;
 // let convertTo = "libra";
@@ -273,7 +284,29 @@
 //     break;
 // }
 
-//8. Operaciones.Calculadora: Requerir 2 números y la operación a realizar (suma, resta, multiplica o divide).
+////Sol  2
+////let money = prompt ("Enter your amount").trim();
+////money= parseInt (money);
+//let amount = 100;
+//let divisa = "dollar"
+//switch (divisa) {
+//  case "dollar":
+//    console.log(amount*0.97)
+//    break;
+//    case "yen":
+//    console.log(amount*141.29)
+//    break;
+//    case "libra":
+//    console.log((amount*0.88).toFixed (2)) //esto para decimales
+//    break;
+//    case "swiss franc":
+//    console.log(amount*0.97)
+//    break;
+//    
+//}
+//
+//
+////8. Operaciones.Calculadora: Requerir 2 números y la operación a realizar (suma, resta, multiplica o divide).
 //Mostrar resultado.
 
 // Sol 1
