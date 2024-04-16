@@ -326,8 +326,8 @@
 
 // let counter = 1;
 // while (counter++ <= 100) {
-//   if (counter % 2 != 0) { 
-//     continue;    
+//   if (counter % 2 != 0) {
+//     continue;
 //   }
 //   console.log(counter);
 // }
@@ -348,3 +348,136 @@
 //     alert("Please, enter a numeric value")
 // }
 // } while (totalBet>5000 || isNaN(totalBet));
+
+//Bucle Do/While
+////// interactive menu for hex colors
+//let option = null;
+//let colors = ["red", "green", "blue"];
+//do {
+//  console.log("Please, choose a color");
+//  for (let index = 0; index < colors.length; index++) {
+//    console.log(index + 1 + "." + colors[index]);
+//  }
+//  console.log("Press 0 to leave");
+//  option = prompt("make your choice");
+//  switch (option) {
+//    case "1":
+//      console.log("Hex code for red: #FF0000");
+//      break;
+//    case "2":
+//      console.log("Hex code for green: #008000");
+//      break;
+//    case "3":
+//      console.log("Hex code for blue: #0000FF");
+//      break;
+//    default:
+//      if (option != 0) {
+//        console.warn("Not a valid option, please try again.");
+//      } else {
+//        console.log("Exiting, see you soon!");
+//      }
+//  }
+//} while (option != 0 && option != null);
+
+//Objetos y Arrays
+//
+//let star = {
+//    name: "Polaris",
+//    constellation: "Ursa Minor",
+//    Type: "Double/ChannelSplitterNode",
+//    sprectralClass: "F7",
+//    mag: 2.0,
+//    "": "acceptable",
+//    mag: 2.5,
+//}
+//console.log(star.name);
+//star.constellation= "Ursa Major"
+//console.log(star.constellation);
+//
+//let num1= 4
+//let num2= num1;
+//console.log(num2);
+//num2 = 7
+//console.log(num1);
+//console.log(num2);
+//
+//let star2 = star;
+//star2.name = "Mizard";
+//star2.mag = 5.7
+//console.log(star.name);
+//console.log(star2.name);
+//console.log(star.mag);
+//console.log(star [""]);
+//
+
+//let hero = {
+//  character: "Iron Man",
+//  name: "Tony Stark",
+//  powers: [
+//    "Genius-lever Intellect",
+//    "Multiple powered armor suits",
+//    "Ability to fly",
+//  ],
+//  info: {
+//    yearCreated: 1963,
+//    powerOrigin: "From his suits",
+//    weapons: ["repoulsor rays", "uni - beam projector", "lasers"],
+//    didYouKnow:
+//      "Toni Stark created and build one of the Spider-Manś upgraded suits known as the Irson Spider Suit.We got a small glimpse of it in Spider-Man: Homecoming!",
+//  },
+//};
+//
+//let hero2 = new Object()
+//hero2.character = "Hulk";
+//hero2.name = "Bruce Banner";
+//hero2.powers = [
+//    "strength",
+//    "speed",
+//    "stamina",
+//    "durability",
+//    "regeneration",
+//    "might invulnerability",
+//    "breathing underwater",
+//];
+//console.log(Object(hero2))
+//console.log(Object(hero))
+
+//let ShoppingCart = {
+//  product1: {
+//    id: 0,
+//  name: "Nike Air Zoom Pegasus 38",
+//  price: "50",
+//  quantity: "20 uds",
+//},
+//product2: {
+//    id: 1,
+//  name: "Nike Zoom" ,
+//  price: "75",
+//  quantity: "10 uds",
+//
+//},
+//product3: {
+//    id: 2,
+//  name: "Adidas Max",
+//  price: "30",
+//  quantity: "75 uds",
+//},
+//
+//product4: {
+//    id: 3,
+//  name: "Air Jordan",
+//  price: "200",
+//  quantity: "7 uds",
+//  },
+//}
+//// 1 option //  console.log(ShoppingCart[Object.key(ShoppingCart)[0]]);
+//
+////another option
+//for(let i=0; i<Object.keys (ShoppingCart).length; i++)
+//  {
+//    console.log("ID: "+
+//ShoppingCart [Object.keys (ShoppingCart)[i]].id
+// + " , name: " +
+//ShoppingCart [Object.keys (ShoppingCart)[i]].name);    
+//  }
+//
