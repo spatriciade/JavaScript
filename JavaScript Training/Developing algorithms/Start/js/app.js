@@ -481,3 +481,354 @@
 //ShoppingCart [Object.keys (ShoppingCart)[i]].name);    
 //  }
 //
+
+//Arrays
+
+//let team = [
+//    "Dani", "Alice","Ana", "Armiche"];
+
+//console.log(team[team.length-1]);
+//console.log(team[0]);
+
+//Intro testing
+//let fails = false;
+//let min= 1;
+//let max = 6;
+//let player1 = Math.floor (Math.random() * (max -min +1)) + min;
+//let player2 = Math.floor (Math.random() * (max -min +1)) + min;
+// 
+//for (let index = 0; index < 10000; index++) {
+//    player1 = Math.floor (Math.random() * (max -min +1)) + min;
+//    if (player1 < 1 || player1> 6){
+//        fails = true;
+//    
+//    }
+//}
+//    if (fails) {
+//        console.error('test fail');
+//     
+//        
+//    } else {
+//        console.log('%c test pass', "color: ·008000")
+//        
+//        
+//    }
+//    console.log(player1);
+//  
+
+//// Array literal
+//let empty = []; // An array with no elements
+//let colors = ["red", "blue", "green"]; // Creates an array with three strings
+//let numbers = [1, 357, 5.25, -79]; // An array with 4 numeric elements
+////let combinedElements = [ 1.1, true, "Hello", ]; // Mixed array
+////    
+////
+////let team = ["Dani", "Alice","Ana", "Armiche"];
+//let team2 = [...team];
+//let team6= Array.from(team);
+//team6[0]= "Alice" 
+//team2[0]= "Coral"
+//console.log(team[0]);
+//console.log(team2[0]);
+//team = ["Dani Vallejo",...team]
+//console.log(team);
+//
+////3 formas de lo mismo:
+//let team5 = ["Dani", "Alice","Ana", "Armiche", "Benjamin"];
+//let team3= new Array ("David Calero", "David Miro", "Elena",)
+//let team4 = Array.of ("David Calero", "David Miró", "Elena",)
+////// Spread operator
+////let original = [1, 2, 3];
+////let originalIncreased = [0, ...original, 4]; // original == [0, 1, 2, 3, 4]
+////let copy = [...original]; // Modifying the copy doesn't change the original
+//let hexValues = [..."0123456789ABCDEF"]; // (16) ['0', '1', '2', '3', '4', '5', '6', '7', '8', 
+//'9', 'A', 'B', 'C', 'D', 'E', 'F'
+//
+
+// The Array() Constructor
+//let elements = new Array(-53, 3.1415, true, "awesome arrays");
+//// Array.of()
+//let empty = Array.of(); // => []; empty array
+//let single = Array.of(10); // => [10]; array with a single element
+//let combined = Array.of(1, true, 3); // => [1, true, 3]
+// Array.from()
+// Convert an iterable or array to a new array
+//let copy = Array.from(original); // Another way to copy an array
+
+//// Managing arrays//
+
+//let colors = ["red", "blue", "green"]; // define// an array of strings
+//alert(colors[0]); // display the first item//
+//colors[2] = "black"; // change the third item//
+//colors[3] = "brown"; // add a fourth item//
+//alert(colors.length); // 4//
+//colors[colors.length] = "black"; // add a color// //(position 4)
+//colors[colors.length] = "white"; // add another// //color (position 5)
+//// There are several methods to check an array//
+////let checking = ["foo", "bar", "baz", "qux"];//
+//console.log(Array.from(checking.keys())); // //[0, 1, 2, 3]
+//console.log(Array.from(checking.values())); // ["foo", "bar", "baz", "qux"]
+//console.log(Array.from(checking.entries())); // [[0, "foo"], [1, "bar"], [2, "baz"], [3, "qux"]]
+
+//Creando Arrays
+
+// The Array() Constructor
+//let elements = new Array(-53, 3.1415, true, "awesome arrays");
+// Array.of()
+//let empty = Array.of(); // => []; empty array
+//let single = Array.of(10); // => [10]; array with a single element
+//let combined = Array.of(1, true, 3); // => [1, true, 3]
+// Array.from()
+// Convert an iterable or array to a new array
+//let copy = Array.from(original); // Another way to copy an array
+
+//Acceder a elementos de Array
+
+// Stack Methods - last-in-first-out (LIFO)
+//let numbers = [1, 2, 3];
+//numbers.push(5); // adds an element at the end [1, 2, 3, 5]
+//numbers.pop(); // deletes last element [1, 2, 3]
+//numbers.push(4); // adds an element at the end [1, 2, 3, 4]
+// Queue Methods - first-in-first-out (FIFO)
+//let colors = ["red", "green", "blue"];
+//colors.shift(); // (2) ['green', 'blue']
+//colors.unshift("orange"); // (3) ['orange', 'green', 'blue'
+
+// Encontrar elementos
+
+//let mixed = [1, true, 3, NaN, 1];
+//mixed.includes(2); // => false
+//mixed.includes(true); // => true
+//mixed.includes(NaN); // => true
+//mixed.indexOf(NaN); // => -1; indexOf can't find NaN
+//mixed.indexOf(3); // => 2
+//mixed.lastIndexOf(1); // => 4
+
+
+
+//const evens = [2, 4, 6];
+//console.log(evens.findIndex(x => x === 6)) // => 2; index of 6 in the array
+//console.log(evens.findIndex(x => x < 0)) // => -1; no negative numbers in the array
+//console.log(evens.find(x => x % 3 === 0)) // => 6: this is a multiple of 3
+//console.log(evens.find(x => x % 7 === 0)) // => undefined: no multiples of 7 in the array
+//
+
+//Ordenar Arrays
+
+
+//let numbers = [1, 2, 3, 4, 5];
+//numbers.reverse();
+//alert(numbers); // 5,4,3,2,1
+//let moreNumbers = [0, 1, 5, 10, 15];
+// sort() with no arguments sorts the array in 
+
+//Alfabéticamente
+//moreNumbers.sort();
+//alert(moreNumbers); // 0,1,10,15,5
+
+// Declaring a comparison function
+//
+//function compare(value1, value2) {
+//if (value1 < value2) {
+//return -1;
+//} else if (value1 > value2) {
+//return 1;
+//} else {
+//return 0;
+//}
+//}
+//
+//let unorderedNumbers = [20, -8 , 3, 102,43,18]
+//unorderedNumbers.sort (compare)
+//console.log(unorderedNumbers);
+////moreNumbers.sort(compare);
+////alert(moreNumbers); // 0,1,5,10,15
+
+
+////Orden alfabético
+//let team= [
+//    "Alice",
+//    "Sebastian",
+//    "Ismael",
+//    "Juan",
+//    "David Miró",
+//    "David Calero",
+//];
+//team.sort()
+//console.log(team);
+
+//let unorderedNumbers = [20, -8 , 3,3, 102,43,18]
+//let counter = 0;
+//unorderedNumbers.sort(function(value1,value2){
+//    counter++;
+    //console.log("value1: ",value1);
+    //console.log("value2: ",value2);
+    //console.log("result: ",value1 - value2);
+    
+//        return value1 - value2;
+//    });
+//    //console.log(counter);    
+//    //console.log(unorderedNumbers);
+//    unorderedNumbers.sort(
+//        (value1,value2) => value2 - value1 
+//    );
+//    console.log(unorderedNumbers);
+
+
+//Manera tradicional de ordernar Arrays
+
+//let numbers = [3, 9, 8, 1, 4];
+//for (let i = 0; i < numbers.length - 2; i++) {
+//console.log(numbers);
+//for (let j = 0, aux = 0; j < numbers.length - 1; j++) {
+//if (numbers[j] > numbers[j + 1]) {
+//aux = numbers[j];
+//numbers[j] = numbers[j + 1];
+//numbers[j + 1] = aux;
+//}
+//}
+//}
+//console.log(numbers);
+
+// Iterating arrays
+// The for/of loop works with iterable
+//0objects (arrays, strings,...)
+//let numbers = [1, 4, 6, 8],
+//sum = 0;
+//for (let num of numbers) {
+//sum += num;
+//}
+//console.log(sum); // => 19
+
+//Iteratin Objects
+
+//let shoppingCart = {
+//    product1: {
+//        id: 0,
+//        name: "trainers",
+//        price: 29.95,
+//        quantity: 1
+//    },
+//    product2: {
+//        id: 1,
+//        name: "suitcase",
+//        price: 109.95,
+//        quantity: 1
+//    },
+//    product3: {
+//        id: 2,
+//        name: "glovers",
+//        price: 9.95,
+//        quantity: 1
+//    },
+//    product4: {
+//        id: 3,
+//        name: "t-shirt",
+//        price: 19.95,
+//        quantity: 2
+//    }
+//}
+//for (let key in shoppingCart )
+//{
+//    console.log(shoppingCart[key].id);
+//    console.log(shoppingCart[key].name)
+//        
+//}
+
+//another example
+
+//let hero = {
+//    character: "Iron Man",
+//    name: "Tony Stark"
+//    }
+//for (const keys in hero) {
+//  console.log(`${keys} => ${hero [keys]}`);    
+//    }
+
+//Usos de "foreach"
+//["Aragorn", "Gandalf","Nazgul"].forEach((element,index,array) => { 
+//    console.log(`${element} is at index ${index} in ${array}`);
+//});
+//[..."Soberano de Angmar en tiempos pasados"]. //aqui usamos el propagador
+//forEach(letter => {console.log(letter);
+//})
+//
+
+//let numbers = [1,2,3];
+//let mappedNumbers = numbers.map(
+//    number => number*2
+//)
+//console.log(mappedNumbers);
+//
+//let filteredNumbers = numbers.filter (number => number < 3)
+//console.log(filteredNumbers);
+//
+//console.log(
+//    numbers.every(number => number > 2)
+//);
+//console.log(
+//    numbers.some (number => number > 2)
+//);
+//
+//let totalSum = numbers.reduce((accum,number)=> accum + number,0)
+//console.log(totalSum);
+//totalSum = 0;
+//
+//totalSum = numbers.reduceRight((accum,number)=> accum+number,0)
+//console.log(totalSum);
+
+//let calendar = new Array(5)
+//for (let i = 0; i < calendar.length; i++) {
+//   calendar[i] = new Array(7)
+//}
+// 
+//1,2,3
+//4,5,6
+//
+//for (let row = 0, day = 1; row < calendar.length; row++) {
+//
+//for (let col = 0; col < calendar[row],length; col++)
+// {
+//  if (day < 31) {
+//calendar [row][col] = day++;
+//  }  else if (day == 31){
+//    calendar [row][col] =day;
+//    day = 1;
+//  }
+//}
+    
+//}  
+//console.log(calendar);
+
+//Definiendo funciones 
+
+//function sayHello(moment, name){
+//    console.log(`Good ${moment}, ${name}!`);
+//    return name.length;
+//    
+//}
+//let letters = 0;
+//letters= sayHello ("Morning","Patricia");
+//console.log(`Your name has ${letters} letters`);
+//letters= sayHello ("Afternoon","Patricia");
+//console.log(`Your name has ${letters} letters`);
+//letters= sayHello ("Night", "Patricia");
+//console.log(`Your name has ${letters} letters`);
+
+//const sum = function (num1,num2){
+//    return num1 + num2;
+//}
+//console.log(sum (2,2));
+//console.log(sum (1,3));
+//console.log(sum (0,4));
+
+//const sum = function (num1,num2){
+//    return num1 + num2;
+//}
+//const sum2 = (num1,num2) => num1+num2;
+//
+//
+//console.log(sum (2,2));
+//console.log(sum (1,3));
+//console.log(sum (11,11));
+//
