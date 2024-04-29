@@ -832,3 +832,15 @@
 //console.log(sum (1,3));
 //console.log(sum (11,11));
 //
+
+//console.log('Working!');
+//
+//const sayHello = (name,today) => {
+//    console.log(`Hello ${name} today is ${today}`);
+//    return true;
+//};
+//let value = sayHello ("John","Monday");
+//if (value){
+//    console.log("Returning values");
+    
+}
