@@ -478,7 +478,7 @@
 //    console.log("ID: "+
 //ShoppingCart [Object.keys (ShoppingCart)[i]].id
 // + " , name: " +
-//ShoppingCart [Object.keys (ShoppingCart)[i]].name);    
+//ShoppingCart [Object.keys (ShoppingCart)[i]].name);
 //  }
 //
 
@@ -496,37 +496,37 @@
 //let max = 6;
 //let player1 = Math.floor (Math.random() * (max -min +1)) + min;
 //let player2 = Math.floor (Math.random() * (max -min +1)) + min;
-// 
+//
 //for (let index = 0; index < 10000; index++) {
 //    player1 = Math.floor (Math.random() * (max -min +1)) + min;
 //    if (player1 < 1 || player1> 6){
 //        fails = true;
-//    
+//
 //    }
 //}
 //    if (fails) {
 //        console.error('test fail');
-//     
-//        
+//
+//
 //    } else {
 //        console.log('%c test pass', "color: ·008000")
-//        
-//        
+//
+//
 //    }
 //    console.log(player1);
-//  
+//
 
 //// Array literal
 //let empty = []; // An array with no elements
 //let colors = ["red", "blue", "green"]; // Creates an array with three strings
 //let numbers = [1, 357, 5.25, -79]; // An array with 4 numeric elements
 ////let combinedElements = [ 1.1, true, "Hello", ]; // Mixed array
-////    
+////
 ////
 ////let team = ["Dani", "Alice","Ana", "Armiche"];
 //let team2 = [...team];
 //let team6= Array.from(team);
-//team6[0]= "Alice" 
+//team6[0]= "Alice"
 //team2[0]= "Coral"
 //console.log(team[0]);
 //console.log(team2[0]);
@@ -541,7 +541,7 @@
 ////let original = [1, 2, 3];
 ////let originalIncreased = [0, ...original, 4]; // original == [0, 1, 2, 3, 4]
 ////let copy = [...original]; // Modifying the copy doesn't change the original
-//let hexValues = [..."0123456789ABCDEF"]; // (16) ['0', '1', '2', '3', '4', '5', '6', '7', '8', 
+//let hexValues = [..."0123456789ABCDEF"]; // (16) ['0', '1', '2', '3', '4', '5', '6', '7', '8',
 //'9', 'A', 'B', 'C', 'D', 'E', 'F'
 //
 
@@ -604,8 +604,6 @@
 //mixed.indexOf(3); // => 2
 //mixed.lastIndexOf(1); // => 4
 
-
-
 //const evens = [2, 4, 6];
 //console.log(evens.findIndex(x => x === 6)) // => 2; index of 6 in the array
 //console.log(evens.findIndex(x => x < 0)) // => -1; no negative numbers in the array
@@ -615,12 +613,11 @@
 
 //Ordenar Arrays
 
-
 //let numbers = [1, 2, 3, 4, 5];
 //numbers.reverse();
 //alert(numbers); // 5,4,3,2,1
 //let moreNumbers = [0, 1, 5, 10, 15];
-// sort() with no arguments sorts the array in 
+// sort() with no arguments sorts the array in
 
 //Alfabéticamente
 //moreNumbers.sort();
@@ -644,7 +641,6 @@
 ////moreNumbers.sort(compare);
 ////alert(moreNumbers); // 0,1,5,10,15
 
-
 ////Orden alfabético
 //let team= [
 //    "Alice",
@@ -661,19 +657,18 @@
 //let counter = 0;
 //unorderedNumbers.sort(function(value1,value2){
 //    counter++;
-    //console.log("value1: ",value1);
-    //console.log("value2: ",value2);
-    //console.log("result: ",value1 - value2);
-    
+//console.log("value1: ",value1);
+//console.log("value2: ",value2);
+//console.log("result: ",value1 - value2);
+
 //        return value1 - value2;
 //    });
-//    //console.log(counter);    
+//    //console.log(counter);
 //    //console.log(unorderedNumbers);
 //    unorderedNumbers.sort(
-//        (value1,value2) => value2 - value1 
+//        (value1,value2) => value2 - value1
 //    );
 //    console.log(unorderedNumbers);
-
 
 //Manera tradicional de ordernar Arrays
 
@@ -732,7 +727,7 @@
 //{
 //    console.log(shoppingCart[key].id);
 //    console.log(shoppingCart[key].name)
-//        
+//
 //}
 
 //another example
@@ -742,11 +737,11 @@
 //    name: "Tony Stark"
 //    }
 //for (const keys in hero) {
-//  console.log(`${keys} => ${hero [keys]}`);    
+//  console.log(`${keys} => ${hero [keys]}`);
 //    }
 
 //Usos de "foreach"
-//["Aragorn", "Gandalf","Nazgul"].forEach((element,index,array) => { 
+//["Aragorn", "Gandalf","Nazgul"].forEach((element,index,array) => {
 //    console.log(`${element} is at index ${index} in ${array}`);
 //});
 //[..."Soberano de Angmar en tiempos pasados"]. //aqui usamos el propagador
@@ -781,7 +776,7 @@
 //for (let i = 0; i < calendar.length; i++) {
 //   calendar[i] = new Array(7)
 //}
-// 
+//
 //1,2,3
 //4,5,6
 //
@@ -796,16 +791,16 @@
 //    day = 1;
 //  }
 //}
-    
-//}  
+
+//}
 //console.log(calendar);
 
-//Definiendo funciones 
+//Definiendo funciones
 
 //function sayHello(moment, name){
 //    console.log(`Good ${moment}, ${name}!`);
 //    return name.length;
-//    
+//
 //}
 //let letters = 0;
 //letters= sayHello ("Morning","Patricia");
@@ -842,5 +837,101 @@
 //let value = sayHello ("John","Monday");
 //if (value){
 //    console.log("Returning values");
+
+//let heroName = "Tony Stark";
+//let hero = {
+//  heroName,
+//  powers: {
+//    powers: [
+//      "Flight",
+//      "Artificial Intelligence",
+//      "Armored suit",
+//      "Super strenght + Durability",
+//    ],
+//  },
+//};
+//hero.character = "Iron Man"
+//console.log(hero, heroName);
+//console.log(hero.powers.powers[2]);
+//console.log(hero.character);
+//
+////Computed property keys
+//
+//let powers = [
+//    "Master of the Mystics Arts",
+//    "Astral Projection",
+//    "Teleportation",
+//    "Eye of Agamotto",
+//    "Cloack of Levitation",
+//    ];
+// let drStrange = {
+//    name: "Stephen Strange",
+// };
+// powers.forEach((element,index) => {
+//    drStrange [`power${index}`] = element; //propiedades dinamicas
+// });
+// for (const key in drStrange){
+//    console.log(`${key}: ${drStrange[key]}`);
+//    
+// }
+
+ //clases
+
+//class Villains{}
+////propiedad dinamica
+//class Avengers{
+//    constructor(character,name){ //metodo constructor
+//this.character = character; //con el this.distingue una clase de una propiedad
+//this.name = name;
+//this.powers = [];
+//this.bio = "";
+//    }
+//    set power(newPower){
+//        this.powers.push(newPower);
+//    }
+//    get power(){
+//        console.log(this.powers.join(","));
+//        
+//    }
+//}
+//let ironMan = new Avengers("Iron Man", "Tony Stark");
+//ironMan.power = "Flight";
+//ironMan.power= "Artificial Intelligence";
+//ironMan.power= "Armored suit";
+//
+//ironMan.power
+
+//class Date{
+//    constructor(){
+//        //this.date =
+//    }
+//}
+//new Date()
+
+//static AvengersBio = () => {
+//    this.bio = `Earth's Mightiest Heroes 
+//    stand as the planet's first line of 
+//    defense against the most powerful 
+//    threats in the universe.`
+//    console.log(this.bio);
+//    }
+//    
+//    ironMan = new Avengers(
+//    "Iron Man",
+//    "Toy Stark",
+//    )
+//
+//    ironMan.power = "Flight"
+//ironMan.power = "Artificial Intelligence"
+//ironMan.power = "Armored Suit"
+//ironMan.power = "Super Strength + Durability"
+//ironMan.power
+//// ironMan.AvengersBio()
+/* Uncaught TypeError: 
+ironMan.AvengersBio is not a function
+*/
+//Avengers.AvengersBio()
+
+
     
-}
+
