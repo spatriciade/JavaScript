@@ -872,10 +872,10 @@
 // });
 // for (const key in drStrange){
 //    console.log(`${key}: ${drStrange[key]}`);
-//    
+//
 // }
 
- //clases
+//clases
 
 //class Villains{}
 ////propiedad dinamica
@@ -891,7 +891,7 @@
 //    }
 //    get power(){
 //        console.log(this.powers.join(","));
-//        
+//
 //    }
 //}
 //let ironMan = new Avengers("Iron Man", "Tony Stark");
@@ -909,13 +909,13 @@
 //new Date()
 
 //static AvengersBio = () => {
-//    this.bio = `Earth's Mightiest Heroes 
-//    stand as the planet's first line of 
-//    defense against the most powerful 
+//    this.bio = `Earth's Mightiest Heroes
+//    stand as the planet's first line of
+//    defense against the most powerful
 //    threats in the universe.`
 //    console.log(this.bio);
 //    }
-//    
+//
 //    ironMan = new Avengers(
 //    "Iron Man",
 //    "Toy Stark",
@@ -932,6 +932,57 @@ ironMan.AvengersBio is not a function
 */
 //Avengers.AvengersBio()
 
-
-    
-
+//Crea una clase llamada User que define un constructor, que recibe 1 parametro, dni
+//A continuacion añade los setters y getters para el nombre y el email.
+//Crea un objeto, dale un nombre y un email y muestralos por consola.
+//
+//// Definición de la clase User
+//class User {
+//  constructor(dni) {
+//    this._dni = dni;
+//    this._name = "";
+//    this._email = "";
+//  }
+//
+//  // Setter para el nombre
+//  set name(name) {
+//    this._name = name;
+//  }
+//
+//  // Getter para el nombre
+//  get name() {
+//    return this._name;
+//  }
+//
+//  // Setter para el email
+//  set email(email) {
+//    this._email = email;
+//  }
+//
+//  // Getter para el email
+//  get email() {
+//    return this._email;
+//  }
+//  // Setter para el DNI
+//  set dni(dni) {
+//    this._dni = dni;
+//  }
+//
+//  // Getter para el DNI
+//  get dni() {
+//    return this.dni;
+//  }
+//}
+//
+//// Crear un objeto de la clase User
+//const user = new User("12345678A");
+//
+//// Asignar un nombre, email y DNI al usuario
+//user.name = "Patricia";
+//user.email = "Patricia@example.com";
+//user.dni = "987645321A";
+//
+//// Mostrar el nombre y el email del usuario por consola
+//console.log("Nombre:", user.name);
+//console.log("Email:", user.email);
+//console.log("DNI:", user._dni);
