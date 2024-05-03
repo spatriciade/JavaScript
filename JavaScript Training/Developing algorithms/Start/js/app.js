@@ -938,7 +938,7 @@ ironMan.AvengersBio is not a function
 //
 //// Definición de la clase User
 //class User {
-//  constructor(dni) {
+//constructor(dni) {
 //    this._dni = dni;
 //    this._name = "";
 //    this._email = "";
@@ -973,16 +973,17 @@ ironMan.AvengersBio is not a function
 //    return this.dni;
 //  }
 //}
-//
-//// Crear un objeto de la clase User
+
+// Crear un objeto de la clase User
 //const user = new User("12345678A");
-//
-//// Asignar un nombre, email y DNI al usuario
+//Otra opcion //
+//let user = new User("12345678A");
+////// Asignar un nombre, email y DNI al usuario
 //user.name = "Patricia";
 //user.email = "Patricia@example.com";
 //user.dni = "987645321A";
 //
-//// Mostrar el nombre y el email del usuario por consola
+////// Mostrar el nombre y el email del usuario por consola
 //console.log("Nombre:", user.name);
 //console.log("Email:", user.email);
 //console.log("DNI:", user._dni);
