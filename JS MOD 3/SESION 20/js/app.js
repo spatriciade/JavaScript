@@ -64,17 +64,20 @@
 // “Number 34 is even” ó “Number 13 is odd”
 
 // Definir la variable con el número a evaluar
-let number = 13; // Puedes cambiar este número para probar diferentes valores
+// let number = 13; // Puedes cambiar este número para probar diferentes valores
 
-// Determinar si el número es par o impar
-let message;
-if (number % 2 === 0) {
-    message = `Number ${number} is even`;
-} else {
-    message = `Number ${number} is odd`;
-}
+// // Determinar si el número es par o impar
+// let message;
+// if (number % 2 === 0) {
+//     message = `Number ${number} is even`;
+// } else {
+//     message = `Number ${number} is odd`;
+// }
 
-console.log(message);
+// console.log(message);
+
+
+
 
 
 
