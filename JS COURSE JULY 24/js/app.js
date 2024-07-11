@@ -145,7 +145,6 @@
 // let irALaNieve = nieve && !snowBoard;
 // console.log('podemos ir a la nieve?:', irALaNieve);
 
-
 // //Estructuras de control
 
 // //1 condicionales
@@ -154,13 +153,13 @@
 // //1 Condicionales if y else
 
 // // if(condicion a cumplir){
-// //     codigo a ejecutar si se cumple la condicion 
+// //     codigo a ejecutar si se cumple la condicion
 
 // // } else if (otra posible condicion){
-// //     bloque para otra condicion 
+// //     bloque para otra condicion
 
 // // } else {
-// //     si no entra en ninguna condicion ejecuta este codigo 
+// //     si no entra en ninguna condicion ejecuta este codigo
 // // }
 
 // let age = 18;
@@ -168,20 +167,20 @@
 
 // if(age >= 18 && driverLicense){
 //     console.log('Enhorabuena ahora puedes conducir');
-      
+
 // }else {
 //     console.log('Aun no puedes conducir');
-    
+
 // }
 
 // let esFinde = true;
 // let vacaciones = false;
 // if (esFinde||vacaciones){
 //     console.log('ahora toca descansar');
-    
+
 // }else {
 //     console.log('a trabajar');
-    
+
 // }
 
 //Bucle FOR
@@ -189,7 +188,7 @@
 //esta es su sintaxis
 // for (let i = 0; i <= 5; i++){
 //    console.log(i);
-   
+
 // }
 
 // let frutas = ["manzana","pera","platano","kiwi"];
@@ -224,7 +223,7 @@
 
 // function saludar(nombre){
 //     console.log(`Hola!` +""+ nombre + "!")
-    
+
 // }
 // saludar("a todos");
 
@@ -232,89 +231,181 @@
 
 // let sumar = function(a,b){
 //     return a + b;
-    
+
 // };
 // console.log(sumar(2,5));
 
 //Alcance de una variable
 
-function multiplicar (a,b){
-    let multiplicacion = a*b;
-    return multiplicacion;
-        
-}
-console.log(multiplicar(2,2));
+// function multiplicar (a,b){
+//     let multiplicacion = a*b;
+//     return multiplicacion;
 
-//funcion que calcule el area de un rectangulo
-
-function area(w,h){
-    let area2 = w*h;
-    return area2;
-}
-console.log(area(20,10));
-
-//crea un programa que reciba un numero y te diga si es par o impar
-
-// function evenOdd(number){
-//     if (number % 2 === 0){
-//         console.log("el número es par");
-        
-//     }
-//     else if (number % 2 !== 0 && typeof number === "number"){
-//         console.log("el número es impar");
-        
-//     }
-//     else {
-//         console.log("Hay un error, introduzca un numero valido");
-        
-//     }
 // }
-// evenOdd(1);
+// console.log(multiplicar(2,2));
 
-//Manipulacion del DOM (DOC OBJECT MODEL)
+// //funcion que calcule el area de un rectangulo
 
-//let parrafo = document.querySelector("#parrafo");
-//console.log(parrafo);
-//parrafo.textContent ="Soy un parrafo tambien";
-//
-//let parrafo2 = document.querySelector("#parrafo2");
-//console.log(parrafo2);
-//parrafo2.textContent = "Soy el segundo parrafo y soy el mejor";
+// function area(w,h){
+//     let area2 = w*h;
+//     return area2;
+// }
+// console.log(area(20,10));
 
-// let elementosLista = document.querySelectorAll("li");
-// console.log(elementosLista);
-// elementosLista.forEach(li => {
-//     li.style.backgroundColor = "red";
+// //crea un programa que reciba un numero y te diga si es par o impar
+
+// // function evenOdd(number){
+// //     if (number % 2 === 0){
+// //         console.log("el número es par");
+
+// //     }
+// //     else if (number % 2 !== 0 && typeof number === "number"){
+// //         console.log("el número es impar");
+
+// //     }
+// //     else {
+// //         console.log("Hay un error, introduzca un numero valido");
+
+// //     }
+// // }
+// // evenOdd(1);
+
+// //Manipulacion del DOM (DOC OBJECT MODEL)
+
+// //let parrafo = document.querySelector("#parrafo");
+// //console.log(parrafo);
+// //parrafo.textContent ="Soy un parrafo tambien";
+// //
+// //let parrafo2 = document.querySelector("#parrafo2");
+// //console.log(parrafo2);
+// //parrafo2.textContent = "Soy el segundo parrafo y soy el mejor";
+
+// // let elementosLista = document.querySelectorAll("li");
+// // console.log(elementosLista);
+// // elementosLista.forEach(li => {
+// //     li.style.backgroundColor = "red";
+// // });
+
+// //crear un nuevo elemento dinamicamente
+
+// let nuevoElemento = document.createElement("div");
+// nuevoElemento.textContent = "Hola, soy un div creado dinamicamente.";
+// document.body.appendChild(nuevoElemento);
+
+// let nuevoDiv = document.createElement("div");
+// nuevoDiv.textContent = "Hola de nuevo otro div";
+// nuevoDiv.style.backgroundColor = "pink";
+// document.body.appendChild (nuevoDiv);
+
+// // nuevoDiv.setAttribute("id", "idPersonalizado");
+// // console.log(nuevoDiv);
+
+// //ARRAYS
+
+// //push y sort +++
+
+// // let frutas = ["manzana","pera","cereza","kiwi"];
+// // console.log(frutas[2]);
+// // frutas[2] = "melon";
+// // //console.log(frutas);
+// // frutas.push =("cereza","granada","platano");
+// // console.log(frutas.length);
+// // // console.log(frutas);
+// // // console.log(frutas.push =("cereza","granada","platano"));
+// // // frutas.sort();
+// // // console.log(frutas);
+
+// // let prueba = ["a","B"];
+// // let result = [];
+// // let minus = prueba.forEach(letra => {
+// //     letra = letra.toLocaleLowerCase();
+// //     result.push(letra);
+// //    });
+// // prueba.sort();
+// // console.log(result);
+
+// // let numeros = [10,2,30,4];
+
+// // numeros.sort((a,b)=> a - b );
+// // console.log(numeros);
+
+// //de mayor a menor
+// // let numeros2 = [-1,200,12,37,4.4];
+// // numeros2.sort((a,b)=> a - b );
+// // console.log(numeros2);
+// //de menor a mayor
+// // let numeros2 = [-1,200,12,37,4.4];
+// // numeros2.sort((a,b)=> b - a );
+// // console.log(numeros2);
+
+// //Funciones matematicas
+
+// //Math.random() //Math.random
+
+// // function getRandom(){
+// //     return Math.ceil(Math.random() *6);
+
+// // }
+// // console.log(getRandom());
+
+// //DIA 4
+
+// let app = document.getElementById("app");
+// console.log(app);
+ 
+// let titulo = document.createElement("h1");
+// titulo.textContent = "Lista de tareas";
+ 
+// let tareas = ["Estudiar JS", "Practicar ejercicios", "Crear un proyecto"];
+ 
+// let lista = document.createElement("ul");
+ 
+// tareas.forEach((tarea) => {
+//   let item = document.createElement("li");
+//   item.textContent = tarea;
+//   lista.appendChild(item);
 // });
+ 
+// let boton = document.createElement("button");
+// boton.textContent = "Agregar tarea";
+ 
+// boton.onclick = function () {
+//   let nuevaTarea = prompt("Ingresa una nueva tarea:");
+//   if (nuevaTarea) {
+//     let item = document.createElement("li");
+//     item.textContent = nuevaTarea;
+//     lista.appendChild(item);
+//   }
+// };
+// let app2 = document.getElementById("app2");
+// console.log(app2);
 
-//crear un nuevo elemento dinamicamente
+// let parrafo = document.createElement("p");
+// parrafo.textContent = "Soy un parrafo creado dinamicamente";
 
-let nuevoElemento = document.createElement("div");
-nuevoElemento.textContent = "Hola, soy un div creado dinamicamente.";
-document.body.appendChild(nuevoElemento);
+// app.appendChild(titulo);
+// app.appendChild(lista);
+// app.appendChild(boton);
+// app2.appendChild(parrafo);
 
+// app.style.backgroundColor = "grey";
 
-let nuevoDiv = document.createElement("div");
-nuevoDiv.textContent = "Hola de nuevo otro div";
-nuevoDiv.style.backgroundColor = "pink";
-document.body.appendChild (nuevoDiv);
+function repeatPhrase(str, numeroVeces){
+    let resultado = "";
+    for (let i = 0; i < numeroVeces; i++) {
+        resultado += str;
+        resultado += " ";
+        console.log(resultado);
+        
+    }
+}
+repeatPhrase("Hola",10);
 
-nuevoDiv.setAttribute("id", "idPersonalizado");
-console.log(nuevoDiv);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function countdown(start){
+    while (start >= 0){
+        console.log(start);        
+        start--;
+    }
+    
+}
+countdown(10);
