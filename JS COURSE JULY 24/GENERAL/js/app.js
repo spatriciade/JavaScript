@@ -390,22 +390,22 @@
 
 // app.style.backgroundColor = "grey";
 
-function repeatPhrase(str, numeroVeces){
-    let resultado = "";
-    for (let i = 0; i < numeroVeces; i++) {
-        resultado += str;
-        resultado += " ";
-        console.log(resultado);
+// function repeatPhrase(str, numeroVeces){
+//     let resultado = "";
+//     for (let i = 0; i < numeroVeces; i++) {
+//         resultado += str;
+//         resultado += " ";
+//         console.log(resultado);
         
-    }
-}
-repeatPhrase("Hola",10);
+//     }
+// }
+// repeatPhrase("Hola",10);
 
-function countdown(start){
-    while (start >= 0){
-        console.log(start);        
-        start--;
-    }
+// function countdown(start){
+//     while (start >= 0){
+//         console.log(start);        
+//         start--;
+//     }
     
-}
-countdown(10);
+// }
+// countdown(10);
