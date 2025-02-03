@@ -76,6 +76,12 @@
 
 // console.log(message);
 
+// Repaso Jan 2025
+
+console.log("Hello world!");
+document.getElementById("root").innherHMTL = "Hello World";
+
+
 
 
 
